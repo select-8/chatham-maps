@@ -5,9 +5,13 @@
     height: 93vh;
 }
 
-.navbar-toggler {
-    outline: none;
-  }
+:focus {
+    outline: 0 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
 
 .map_frame {
     width: 100%;
@@ -48,7 +52,7 @@ a:hover {
 .nav-map a {
     color: #FAFAFA;
     display: block;
-    padding: .5rem 1rem;
+    padding: 0 1rem;
 }
 
 .nav-map .mapinit {
