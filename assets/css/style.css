@@ -1,8 +1,13 @@
 #content {
     background-color: #FFFFFF;
     bottom: 0;
-    height: 90vh;
+    margin-top: 10px;
+    height: 93vh;
 }
+
+.navbar-toggler {
+    outline: none;
+  }
 
 .map_frame {
     width: 100%;
@@ -19,7 +24,7 @@
 }
 
 #nav-countries a {
-    padding: 20px;
+    padding: 15px;
     color: #FAFAFA;
     text-decoration: none;
 }

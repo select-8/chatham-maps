@@ -9,51 +9,56 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="wrapper">
+        <section>
+            <!-- <div class="container-fluid"> -->
+            <div id="nav-section">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div id="nav-countries">
+                        <a href="#" class="active-country active" onclick="load_iraq()">IRAQ</a>
+                        <a href="#" class="active-country" onclick="load_yemen()">YEMEN</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-map" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item navbar-iraq">
+                                <a class="active-map mapinit" href="#" onclick="load_iraq_control()">Control</a>
+                            </li>
+                            <li class="nav-item navbar-iraq">
+                                <a class="active-map" href="#" onclick="load_iraq_gov()">Governance</a>
+                            </li>
+                            <li class="nav-item navbar-iraq">
+                                <a class="active-map" href="#" onclick="load_iraq_legit()">Legitimacy Perception</a>
+                            </li>
+                            <li class="nav-item navbar-yemen">
+                                <a class="active-map" href="#" onclick="load_yemen_control()">Control</a>
+                            </li>
+                            <li class="nav-item navbar-yemen">
+                                <a class="active-map" href="#" onclick="load_yemen_gov()">Governance</a>
+                            </li>
+                            <li class="nav-item navbar-yemen">
+                                <a class="active-map" href="#" onclick="load_yemen_legit()">Legitimacy
+                                    Perception</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- </div> -->
+        </section>
 
-        <div class="section" id="nav-section">
-
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div id="nav-countries">
-                    <a href="#" class="active-country active" onclick="load_iraq()">IRAQ</a>
-                    <a href="#" class="active-country" onclick="load_yemen()">YEMEN</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav-map" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item navbar-iraq">
-                            <a class="active-map mapinit" href="#" onclick="load_iraq_control()">Control</a>
-                        </li>
-                        <li class="nav-item navbar-iraq">
-                            <a class="active-map" href="#" onclick="load_iraq_gov()">Governance</a>
-                        </li>
-                        <li class="nav-item navbar-iraq">
-                            <a class="active-map" href="#" onclick="load_iraq_legit()">Legitimacy Perception</a>
-                        </li>
-                        <li class="nav-item navbar-yemen">
-                            <a class="active-map" href="#" onclick="load_yemen_control()">Control</a>
-                        </li>
-                        <li class="nav-item navbar-yemen">
-                            <a class="active-map" href="#" onclick="load_yemen_gov()">Governance</a>
-                        </li>
-                        <li class="nav-item navbar-yemen">
-                            <a class="active-map" href="#" onclick="load_yemen_legit()">Legitimacy Perception</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-        <div class="section content-section">
-            <div class="row">
-                <div class="col-12">
-                    <div id="content"></div>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="content"></div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
