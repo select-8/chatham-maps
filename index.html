@@ -13,16 +13,15 @@
         <section>
             <div id="nav-section">
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="mr-auto order-lg-last" id="nav-countries">
+                    <!-- <div class="mr-auto order-lg-last" id="nav-countries">
                         <a href="#" class="active-country active" onclick="load_iraq()">IRAQ</a>
                         <a href="#" class="active-country" onclick="load_yemen()">YEMEN</a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    </div> -->
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
-                    </button>
-                    <div class="collapse navbar-collapse nav-map" id="navbarNav">
+                    </button> -->
+                    <div class="nav-map" id="navbarNav">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item navbar-iraq">
                                 <a class="active-map mapinit" href="#" onclick="load_iraq_control()">Control</a>
@@ -44,6 +43,10 @@
                                     Perception</a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="ml-auto order-lg-last" id="nav-countries">
+                        <button type="button" class="btn btn-outline-primary btn-custom"><a href="#" class="active-country active" onclick="load_iraq()"></a>IRAQ</button>
+                        <button type="button" class="btn btn-outline-primary btn-custom"><a href="#" class="active-country" onclick="load_yemen()"></a>YEMEN</button>
                     </div>
                 </nav>
             </div>
