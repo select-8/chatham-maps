@@ -43,7 +43,7 @@
 
 #nav-countries {
     font-family: 'Proxima N W01 Light', 'Open Sans', Corbel, Arial, sans-serif;
-    background-color: #F8F8F8;
+    background-color: #FAFAFA;
     min-height: 50px;
     font-size: 1.75rem;
     padding: 10px 20px;
@@ -72,7 +72,7 @@
 
 .btn:hover {
     color: #005984;
-    background-color: #F8F8F8;
+    background-color: #FAFAFA;
 }
 
 a:hover {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .navbar {
-    background-color: #F8F8F8;
+    background-color: #FAFAFA;
 }
 
 .navbar-nav>li {
