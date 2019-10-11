@@ -15,6 +15,10 @@
     border-radius: 10%;
 }
 
+.active-country {
+    padding: 10px 20px;
+}
+
 /* .btn {
     font-size: 1.5rem;
 }
@@ -60,7 +64,7 @@
 }
 
 .nav-map {
-    float: right;
+    /* float: right; */
     text-align: left;
     font-family: 'Proxima N W01 Light', 'Open Sans', Corbel, Arial, sans-serif;
     font-size: 1.1rem;
@@ -95,6 +99,5 @@ a:hover {
 }
 
 .navbar-nav>li {
-    padding-left: 30px;
-    padding-right: 0;
+    padding: 0;
 }
