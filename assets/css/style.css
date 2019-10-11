@@ -9,7 +9,13 @@
     outline: 0 !important;
 }
 
-.btn {
+.btn-custom {
+    font-size: 1.5rem;
+    border: solid 1px #005984;
+    border-radius: 10%;
+}
+
+/* .btn {
     font-size: 1.5rem;
 }
 
@@ -23,7 +29,7 @@
 
 .btn.btn-outline-primary.btn-custom:hover {
     color: #00AEEF;
-}
+} */
 
 .navbar-dark .navbar-toggler {
     border: none;
@@ -37,7 +43,7 @@
 
 #nav-countries {
     font-family: 'Proxima N W01 Light', 'Open Sans', Corbel, Arial, sans-serif;
-    background-color: #FFFFFF;
+    background-color: #F0F0F0;
     min-height: 50px;
     font-size: 1.75rem;
     padding: 10px 20px;
@@ -46,6 +52,7 @@
 #nav-countries a {
     color: #005984;
     text-decoration: none;
+
 }
 
 #nav-countries .active {
@@ -54,9 +61,18 @@
 
 .nav-map {
     float: right;
-    text-align: right;
+    text-align: left;
     font-family: 'Proxima N W01 Light', 'Open Sans', Corbel, Arial, sans-serif;
     font-size: 1.1rem;
+}
+
+.btn {
+    background-color: #FAFAFA;
+}
+
+.btn:hover {
+    color: #005984;
+    background-color: #F0F0F0;
 }
 
 a:hover {
@@ -75,7 +91,7 @@ a:hover {
 }
 
 .navbar {
-    /* background-color: #005984; */
+    background-color: #F0F0F0;
 }
 
 .navbar-nav>li {
