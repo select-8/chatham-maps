@@ -2,6 +2,7 @@
     background-color: #FFFFFF;
     bottom: 0;
     margin-top: 10px;
+    margin-bottom: 10px;
     height: 93vh;
 }
 
@@ -53,10 +54,9 @@
 }
 
 .nav-map {
-    /* float: right; */
     text-align: left;
     font-family: 'Proxima N W01 Light', 'Open Sans', Corbel, Arial, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .btn {
@@ -76,7 +76,7 @@ a:hover {
 .nav-map a {
     color: #005984;
     display: block;
-    padding: 0 1rem;
+    padding: 0 .6rem;
 }
 
 .nav-map .mapinit {
@@ -90,3 +90,27 @@ a:hover {
 .navbar-nav>li {
     padding: 0;
 }
+
+@media(max-width: 700px) {
+    .nav-map {
+        font-size: 1rem;
+        margin-bottom: 2.5px;
+    }
+}
+
+@media(max-width: 736px) {
+    #nav-countries {
+        display: grid;
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+}
+
+
+/* * {
+    background: #000 !important;
+
+    color: #0f0 !important;
+
+    outline: solid #f00 1px !important;
+} */

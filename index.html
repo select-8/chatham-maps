@@ -13,12 +13,8 @@
         <section>
             <div id="nav-section">
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="ml-auto order-sm-last" id="nav-countries">
-                        <button href="#" class="btn-country active" onclick="load_iraq()">IRAQ</button>
-                        <button href="#" class="btn-country" onclick="load_yemen()">YEMEN</button>
-                    </div>
                     <div class="nav-map" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav">
                             <li class="nav-item navbar-iraq">
                                 <a class="active-map mapinit" href="#" onclick="load_iraq_control()">Control</a>
                             </li>
@@ -39,6 +35,10 @@
                                     Perception</a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="ml-auto countries" id="nav-countries">
+                        <button href="#" class="btn-country active" onclick="load_iraq()">IRAQ</button>
+                        <button href="#" class="btn-country" onclick="load_yemen()">YEMEN</button>
                     </div>
 
                 </nav>
