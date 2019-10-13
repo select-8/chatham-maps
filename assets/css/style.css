@@ -9,31 +9,20 @@
     outline: 0 !important;
 }
 
-.btn-custom {
-    font-size: 1.5rem;
-    border: solid 1px #005984;
-    border-radius: 10%;
-}
 
-.active-country {
+.btn-country {
+    /* padding: 10px 20px; */
+    background-color: #FAFAFA;
+    border: solid 2px WHITE;
+    color: #005984;
     padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-/* .btn {
-    font-size: 1.5rem;
-}
-
-.btn-outline-primary {
-    color: #005984 ;
-}
-
-.btn-outline-primary:hover {
-    background-color: white;
-}
-
-.btn.btn-outline-primary.btn-custom:hover {
-    color: #00AEEF;
-} */
 
 .navbar-dark .navbar-toggler {
     border: none;

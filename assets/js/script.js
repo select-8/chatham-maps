@@ -55,7 +55,7 @@
 
         // Current elements across 1. country 2. map data should be highlighted as active
         let navSection = document.getElementById("nav-section");
-        let navCountry = navSection.getElementsByClassName("active-country");
+        let navCountry = navSection.getElementsByClassName("btn-country");
         let navMap = navSection.getElementsByClassName("active-map");
 
 
