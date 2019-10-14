@@ -119,7 +119,7 @@ a:hover {
     }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 760px) {
     .navbar-nav {
         flex-direction: inherit;
     }
