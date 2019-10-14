@@ -113,6 +113,13 @@ a:hover {
     }
 }
 
+@media(max-width: 320px) {
+    #nav-countries {
+        font-size: .9rem;
+        margin-bottom: 2.5px;
+    }
+}
+
 @media(min-width: 750px) {
     .navbar-nav {
         flex-direction: inherit;
