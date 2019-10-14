@@ -12,7 +12,6 @@
 
 
 .btn-country {
-    /* padding: 10px 20px; */
     background-color: #FAFAFA;
     border: solid 2px WHITE;
     color: #005984;
@@ -23,7 +22,6 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-
 
 .navbar-dark .navbar-toggler {
     border: none;
@@ -120,6 +118,13 @@ a:hover {
         font-size: 0.9rem;
     }
 }
+
+@media(min-width: 768px) {
+    .navbar-nav {
+        flex-direction: inherit;
+    }
+}
+
 
 
 /* * {
