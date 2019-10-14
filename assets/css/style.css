@@ -113,6 +113,14 @@ a:hover {
     }
 }
 
+@media(max-width: 730px) {
+    #nav-countries {
+        display: grid;
+        padding: 5px 5px;
+        font-size: 0.9rem;
+    }
+}
+
 
 /* * {
     background: #000 !important;
