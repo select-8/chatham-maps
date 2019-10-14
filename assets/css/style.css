@@ -92,7 +92,7 @@ a:hover {
     padding: 0;
 }
 
-@media(min-width: 679px) {
+@media(min-width: 640px) {
     .nav-map {
         font-size: 1.2rem;
     }
@@ -105,7 +105,7 @@ a:hover {
     }
 }
 
-@media(min-width: 679px) {
+@media(min-width: 640px) {
     #nav-countries {
         display: inherit;
         font-size: 1.75rem;
@@ -113,7 +113,7 @@ a:hover {
     }
 }
 
-@media(min-width: 679px) {
+@media(min-width: 640px) {
     .navbar-nav {
         flex-direction: inherit;
     }
