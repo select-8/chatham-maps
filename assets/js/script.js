@@ -3,53 +3,53 @@
             $(".navbar-yemen").hide();
             $(".navbar-iraq").show();
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/expanded/iraq_control.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/iraq_control.html" class="map_frame"></iframe>';
         });
 
-        // Load relevant html into iframe on click
+        // Load relevant html into iframe on clicks
         function load_iraq() {
             $(".navbar-yemen").hide();
             $(".navbar-iraq").show();
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/expanded/iraq_control.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/iraq_control.html" class="map_frame"></iframe>';
         };
 
         function load_yemen() {
             $(".navbar-iraq").hide();
             $(".navbar-yemen").show();
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/collapsed/yemen_control.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/yemen_control.html" class="map_frame"></iframe>';
 
         };
 
         function load_iraq_control() {
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/expanded/iraq_control.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/iraq_control.html" class="map_frame"></iframe>';
         };
 
         function load_iraq_gov() {
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/expanded/iraq_health_care.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/iraq_health_care.html" class="map_frame"></iframe>';
         };
 
         function load_iraq_legit() {
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/expanded/iraq_legit.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/iraq_legit.html" class="map_frame"></iframe>';
         };
 
         function load_yemen_control() {
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/collapsed/yemen_control.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/yemen_control.html" class="map_frame"></iframe>';
         };
 
         function load_yemen_legit() {
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/collapsed/yemen_legit.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/yemen_legit.html" class="map_frame"></iframe>';
         };
 
         function load_yemen_gov() {
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" src="maps/collapsed/yemen_health_care.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/yemen_health_care.html" class="map_frame"></iframe>';
         };
 
 
