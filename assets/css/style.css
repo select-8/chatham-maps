@@ -4,7 +4,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     height: 85vh;
-    width: 98%;
+    width: 1185px;
     position: fixed;
 }
 
@@ -128,3 +128,11 @@ a:hover {
         flex-direction: inherit;
     }
 }
+
+/* *  {
+    background: #000 !important;
+    
+    color: #0f0 !important;
+    
+    outline: solid #f00 1px !important;
+    } */
