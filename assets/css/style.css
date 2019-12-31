@@ -4,8 +4,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
     height: 85vh;
-    width: 95vw;
+    width: 100vw;
     position: fixed;
+    left: 0;
 }
 
 :focus {
