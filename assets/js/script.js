@@ -24,7 +24,7 @@
 
         function load_iraq_control() {
             document.getElementById("content").innerHTML =
-                '<iframe type="text/html" scrolling="auto" src="maps/iraq_control.html" class="map_frame"></iframe>';
+                '<iframe type="text/html" src="maps/iraq_control.html" class="map_frame"></iframe>';
         };
 
         function load_iraq_gov() {
